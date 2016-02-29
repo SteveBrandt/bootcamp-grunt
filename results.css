@@ -1,13 +1,18 @@
 @charset "UTF-8";
 /*! sassyjson - v1.1.8 - 2014-06-01 */
 /* >> Bootcamp >> */
+x-rem suite should work as expected {
+  ✗: Expected "x-rem(margin, 10px)" to be true;
+  Test: Failed;
+}
+
 Test Results {
-  Success: true;
-  Stats:  ✔;
-  Tests: 1;
-  Asserts: 1;
+  Success: false;
+  Stats:  ✔ ✗;
+  Tests: 2;
+  Asserts: 2;
   Passed: 1;
-  Failed: 0;
+  Failed: 1;
   Skipped: 0;
 }
 

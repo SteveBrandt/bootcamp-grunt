@@ -3,4 +3,5 @@
 
 @include runner-start;
 @import "./specs/example";
+@import "./specs/x-remSpec";
 @include runner-end;

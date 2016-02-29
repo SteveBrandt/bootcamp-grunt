@@ -1,0 +1,5 @@
+@include describe("x-rem suite") {
+  @include it("should work as expected") {
+    @include should( expect( x-rem(margin, 10px) ), to( be( true )));
+  }
+}
